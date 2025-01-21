@@ -1,0 +1,61 @@
+body{
+    background-image: url(/img/wallpaper1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav.ml-auto .nav-link {
+    margin-right: 15px;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: blueviolet;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: black;
+    font-weight: 500;
+}
+
+.hero button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+.footer {
+    padding: 20px 0;
+}
+
+.bg-image {
+    background-image: url(../img/wallpaper2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+  .login-container {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    margin-top: 200px;
+    border-radius: 5px;
+  }
